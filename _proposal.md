@@ -1,9 +1,9 @@
 # **GSOC 2025**
+ 
+![R Project Icon](r-project-official.webp)
 
-   
-                                    ![R Logo](https://imgs.search.brave.com/ZJ0woXOQeaFg8ahzbspOjYxHWlAAS8WDhCeTQ80V5u8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFiL1JfbG9nby5z/dmc)
 
-                         R project for statistical computing
+# R PROJECT FOR STATISTICAL COMPUTING 
 
 
 VINIT THAKUR 7/03/2025  
@@ -28,7 +28,7 @@ INDIA/GMT \+5:30
 
 * About Me
 
-* Contact Info
+* Contact Info  
 
 * Affiliation
 
@@ -38,7 +38,7 @@ INDIA/GMT \+5:30
 
 * Timeline
 
-![][image2]
+![code](code.webp)
 
 #  **Project title:**
 
@@ -53,8 +53,6 @@ this project aims to enhance **data.table** by improving functionality, optimizi
 [https://github.com/rstats-gsoc/gsoc2025/wiki/data.table](https://github.com/rstats-gsoc/gsoc2025/wiki/data.table)
 
 # **About Me**
-
-**About Me**
 
 I am Vinit, a passionate software developer with a strong background in **C, C++, Python, and R**. My expertise spans **deep learning, database management, and algorithm optimization**, providing me with a well-rounded understanding of performance efficiency and data handling. I have completed a course related to R programming, which has enhanced my skills in data processing and analysis. Since **December,** I have been actively contributing to the **data.table** project, gaining hands-on experience with its internals and functionality. I have successfully merged **five pull requests (PRs)** and am currently working on two more, in addition to reviewing others.
 
@@ -82,14 +80,14 @@ Beyond software development, I am an avid **football player** and enjoy engaging
 
 **\*\* Some Personal projects:**
 
-1.  **I[mage-Classification\-](https://github.com/venom1204/image-classification)**  
+1. #### **I[mage-Classification\-](https://github.com/venom1204/image-classification)**  
 - Developed a CNN-based image classifier using TensorFlow to categorize images into two classes.
 - Dataset: Custom-labeled dataset with preprocessing (resizing, normalization, augmentation).
 - Model: Multi-layer CNN with ReLU, max pooling, dropout, and Adam optimizer.
 - Evaluation: Achieved high accuracy using precision, recall, and a confusion matrix.
 - Deployment: Saved the trained model in .h5 format for future inference.
 
-2. **RSA Cryptography-**
+2. #### **RSA Cryptography-**
 
 In this project, I implemented the RSA encryption and decryption algorithm in Python to ensure secure communication through asymmetric cryptography. The goal was to generate secure key pairs, encrypt messages, and decrypt them efficiently.
 
@@ -114,6 +112,18 @@ These projects enhanced my skills in deep learning, cryptography, and
 
 * Description: This pull request improved error messages for **merge.data.table** by clearly specifying which columns are missing and indicating explicitly which data.table (**x** or **y**) lacks these columns. Previously, error messages were vague, making debugging difficult when keys were missing from either table.  
 * Impact: Enhanced error messages significantly improve user experience by clearly indicating missing columns and their respective tables during merge operations, simplifying debugging and saving users' time.  
+
+### Before (Current Error Message)
+```{r before_message}
+Error in merge.data.table(test, manual, by = c("iso3c", "year"), all = TRUE) : 
+  Elements listed in `by` must be valid column names in x and y
+```
+```{r after_modification}
+Error in merge.data.table(test, manual, by = c("iso3c", "year"), all = TRUE) : 
+  The following columns listed in `by` are missing:
+  - From `x`: [iso3c]
+  - From `y`: [year]
+```
 ##       3\. **[PR \#6813](https://github.com/Rdatatable/data.table/pull/6813)** – **Enhanced error handling and edge case coverage for setcolorder().**
 
 * Description: Enhanced documentation for non-equi joins, explaining column retention behavior, usage of **nomatch \= NULL**, and providing clear examples for explicit column selection and filtering unmatched rows.  
