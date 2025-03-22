@@ -141,7 +141,7 @@ These projects enhanced my skills in deep learning, cryptography, and
 
 **REVIEWED**
 
-1.    **[PR \#6664](https://github.com/Rdatatable/data.table/pull/6664) \-** Fix handling of complex data types in data.table joins
+1.    **[PR \#6664](https://github.com/Rdatatable/data.table/pull/6664) \-** **Fix handling of complex data types in data.table joins**
 
 My experience with efficient data structures, query execution, and large- scale data processing makes me well-suited for this project. I am eager to contribute by improving data.table’s functionality, optimizing its performance, and enhancing its documentation to make it more accessible to the R community.
 
@@ -204,9 +204,9 @@ In this project, I will contribute to **data.table**, a high-performance R packa
 
 This project emphasizes **code efficiency, scalability, and core enhancements**, ensuring that data.table remains a high-performance solution for data manipulation in R.
 
-**\*\*Coding Plan and Methods**
+# **\*\*Coding Plan and Methods**
 
-1. ## **Project Understanding & Initial Setup (Community Bonding Period)**
+1.**Project Understanding & Initial Setup (Community Bonding Period)**
 
 **Timeline:** Weeks 1–2
 
@@ -216,9 +216,9 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
   * Identify key areas for documentation improvements and start drafting an initial structure.
 
-2. ## **Implementation Plan**
+2. # **Implementation Plan**
 
-1. ## **Issue Resolution (3–4 Issues Per Week)**
+- **Issue Resolution (3–4 Issues Per Week)**
 
    * Prioritize and categorize issues into **beginner-friendly**, **medium complexity**, and **high-impact optimizations** based on difficulty level.
 
@@ -232,7 +232,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
      2. **Implement the fix**: Write clean, efficient code, properly tested with real-world scenarios.  
      3. **Submit a PR and iterate**: Respond to mentor feedback, refine the code, and ensure a smooth merge process.
 
-2. ## **Low-Level C Development (Performance Optimizations & Bug Fixes)**
+- **Low-Level C Development (Performance Optimizations & Bug Fixes)**
 
    * Identify performance bottlenecks in the existing C implementation.
 
@@ -240,15 +240,15 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
    * Implement optimizations for specific algorithms that handle large datasets or high-computation tasks.
 
-   **C.   Documentation Writing (Ongoing Task Throughout GSoC)**
+  - **Documentation Writing (Ongoing Task Throughout GSoC)**
 
-1. Improve the existing documentation by making it more user-friendly and comprehensive.
+      * Improve the existing documentation by making it more user-friendly and comprehensive.
 
-   2. Add detailed explanations for complex functions and algorithms, making them easier for new contributors to understand.
+      * Add detailed explanations for complex functions and algorithms, making them easier for new contributors to understand.
 
-      3. Ensure the documentation is consistent with the latest updates in the codebase.
+      * Ensure the documentation is consistent with the latest updates in the codebase.
 
-      4. Write practical examples and tutorials to demonstrate the usage of key functions.
+      * Write practical examples and tutorials to demonstrate the usage of key functions.
 
 3. ## **Code Verification & Testing Strategy Unit Testing & Debugging:**
 
@@ -264,7 +264,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
   * Compare results with previous versions to verify performance gains.
 
-**4\. Weekly Progress Tracking & Reporting**
+4. # **Weekly Progress Tracking & Reporting**
 
 * At the end of each week, I will document progress, challenges faced, and key learnings.
 
@@ -272,7 +272,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
   * Regularly communicate with mentors through email, GitHub discussions, and scheduled meetings to ensure alignment with project goals.
 
-## **5\. Perceived Challenges & Mitigation Strategies**
+5. # **Perceived Challenges & Mitigation Strategies**
 
 1. **Understanding Legacy Code:**
 
