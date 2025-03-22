@@ -1,9 +1,10 @@
 # **GSOC 2025**
 
    
-                                                    ![][image1]
+                                    ![R Logo](https://imgs.search.brave.com/ZJ0woXOQeaFg8ahzbspOjYxHWlAAS8WDhCeTQ80V5u8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFiL1JfbG9nby5z/dmc)
 
-         R project for statistical computing
+                         R project for statistical computing
+
 
 VINIT THAKUR 7/03/2025  
 [venomplays1204@gmail.com](mailto:venomplays1204@gmail.com)
@@ -39,9 +40,7 @@ INDIA/GMT \+5:30
 
 ![][image2]
 
-# 
-
-#  **\*\*Project title:**
+#  **Project title:**
 
 Enhancing Data.Table:Enhancing Functionality, and Ensuring Quality
 
@@ -53,7 +52,7 @@ this project aims to enhance **data.table** by improving functionality, optimizi
 
 [https://github.com/rstats-gsoc/gsoc2025/wiki/data.table](https://github.com/rstats-gsoc/gsoc2025/wiki/data.table)
 
-# **\*\* About Me**
+# **About Me**
 
 **About Me**
 
@@ -78,25 +77,17 @@ Beyond software development, I am an avid **football player** and enjoy engaging
 7. Data Structures and Algorithms  
 8. Pattern Recognition in Machine Learning  
 9. Modelling and Simulation
-
-    10\. Database Management Systems  
-    11\. Embedded systems
+10. Database Management Systems  
+11. Embedded systems
 
 **\*\* Some Personal projects:**
 
 1.  **I[mage-Classification\-](https://github.com/venom1204/image-classification)**  
-* [In this project, I developed an image classification model using **Convolutional Neural Networks (CNNs)** in TensorFlow to categorize images into predefined classes. The goal was to build an efficient classifier that accurately differentiates between objects in images.](https://github.com/venom1204/image-classification)
-
-  #### [Key Features and Implementation Details:](https://github.com/venom1204/image-classification)
-
-* [Dataset Used: Trained the model on a custom dataset with images labeled into two classes.](https://github.com/venom1204/image-classification)  
-* [Preprocessing Steps: Removed corrupted images, applied resizing, normalization, and data augmentation techniques to enhance generalization.](https://github.com/venom1204/image-classification)  
-* [CNN Architecture: Designed a **multi-layer CNN** with convolutional layers, ReLU activation, max pooling, and dropout for regularization.](https://github.com/venom1204/image-classification)  
-* [Training and Optimization: Used Adam optimizer and binary cross-entropy loss, tuning learning rates and batch sizes for improved performance.](https://github.com/venom1204/image-classification)  
-* [Evaluation Metrics: Assessed model performance using accuracy, precision, recall, and a confusion matrix, achieving high classification accuracy.](https://github.com/venom1204/image-classification)  
-* [Deployment: Converted and saved the trained model in .h5 format for future inference and real-time predictions.](https://github.com/venom1204/image-classification)
-
-[This project strengthened my expertise in deep learning, computer vision, and model optimization, providing hands-on experience in building and deploying CNN-based image classifiers.](https://github.com/venom1204/image-classification)
+- Developed a CNN-based image classifier using TensorFlow to categorize images into two classes.
+- Dataset: Custom-labeled dataset with preprocessing (resizing, normalization, augmentation).
+- Model: Multi-layer CNN with ReLU, max pooling, dropout, and Adam optimizer.
+- Evaluation: Achieved high accuracy using precision, recall, and a confusion matrix.
+- Deployment: Saved the trained model in .h5 format for future inference.
 
 2. **RSA Cryptography-**
 
@@ -104,14 +95,12 @@ In this project, I implemented the RSA encryption and decryption algorithm in Py
 
 #### **Key Features and Implementation Details:**
 
-* Key Generation: Generated public and private key pairs using large prime numbers and Euler's totient function.  
-* Encryption: Converted plaintext messages into numerical format and encrypted them using modular exponentiation with the public key.  
-* Decryption: Used the private key to retrieve the original message from the ciphertext using modular inverse calculations.  
-* Security Considerations: Ensured strong key strength by selecting large prime numbers to make brute-force attacks computationally infeasible.  
-* Performance Optimization: Implemented efficient modular exponentiation for faster encryption and decryption.
+- Implemented RSA encryption & decryption in Python for secure communication.
+- Key Generation: Created public-private key pairs using large primes & Euler's totient function.
+- Encryption/Decryption: Used modular exponentiation for message encryption & retrieval.
+- Security: Ensured strong key strength to resist brute-force attacks.
 
-This project helped me understand the fundamentals of public-key cryptography, key management, and secure communication techniques in real-world applications.
-
+These projects enhanced my skills in deep learning, cryptography, and 
 ## 
 
 ## **LIST OF MY WORK IN DATA.TABLE**
@@ -121,37 +110,31 @@ This project helped me understand the fundamentals of public-key cryptography, k
 * Description: This pull request added an example demonstrating the usage of **cols=\<list\>** in the **setindexv()** function's documentation. The example showcases how to set multiple indices at once using a list of column combinations, enhancing clarity for users working with indexed data.tables.  
 * Impact: By including this example, users gain a better understanding of how to use **setindexv()** effectively, especially for setting multiple indices simultaneously. This improves documentation usability and helps users perform advanced indexing operations with ease.
 
-##         2\. **[PR \#6713](https://github.com/Rdatatable/data.table/pull/6713)** – **Improved merge.data.table error messages for missing**                
-
-##               **keys.**
+##         2\. **[PR \#6713](https://github.com/Rdatatable/data.table/pull/6713)** – **Improved merge.data.table error messages for missing keys**                
 
 * Description: This pull request improved error messages for **merge.data.table** by clearly specifying which columns are missing and indicating explicitly which data.table (**x** or **y**) lacks these columns. Previously, error messages were vague, making debugging difficult when keys were missing from either table.  
 * Impact: Enhanced error messages significantly improve user experience by clearly indicating missing columns and their respective tables during merge operations, simplifying debugging and saving users' time.  
-  **3**. [**PR \#6813**](https://github.com/Rdatatable/data.table/pull/6813) – **Enhanced error handling and edge case coverage for**
-
-  **setcolorder().**
+##       3\. **[PR \#6813](https://github.com/Rdatatable/data.table/pull/6813)** – **Enhanced error handling and edge case coverage for setcolorder().**
 
 * Description: Enhanced documentation for non-equi joins, explaining column retention behavior, usage of **nomatch \= NULL**, and providing clear examples for explicit column selection and filtering unmatched rows.  
 * Impact: Better error handling and coverage of edge cases make the setcolorder() function more robust and user-friendly, reducing the likelihood of errors when reordering columns.
 
-  **4** .[**PR \#6848**](https://github.com/Rdatatable/data.table/pull/6848) – **Combine DTPRINT statements for fread verbose messages**
+##       4\. **[PR \#6848](https://github.com/Rdatatable/data.table/pull/6848)** – **Combine DTPRINT statements for fread verbose messages**
 
 * Description:This pull request streamlined verbose messaging in **fread** by combining fragmented **DTPRINT** statements into single, cohesive calls while preserving conditional formatting and original message content.  
 * Impact: Simplifies code readability and maintenance for verbose messaging in **fread**, ensuring consistent and clear output during debugging or verbose mode operations.
 
-  5\. [**PR \#6801**](https://github.com/Rdatatable/data.table/pull/6801) – **Fix typo in join vignette: Replace "banana" with "soda"**
+##       5\. **[PR \#6801](https://github.com/Rdatatable/data.table/pull/6801)** – **Fix typo in join vignette: Replace "banana" with "soda"**
 
 * Description: This pull request corrected two instances of the word "banana" in the **datatable-joins.Rmd** vignette, replacing them with "soda."  
 * Impact: By fixing this typo, the vignette now accurately reflects the example data and code output, improving consistency and clarity for users learning about join operations in data.table. This ensures that documentation is both accurate and user-friendly.
 
-  **6**. [**PR \#6847**](https://github.com/Rdatatable/data.table/pull/6847) –  **Simplified and Extended "Updating by Reference" Section in Joins Vignette**
+##        6\. **[PR \#6847](https://github.com/Rdatatable/data.table/pull/6847)** –  **Simplified and Extended "Updating by Reference" Section in Joins Vignette**
 
 * Description: Simplified the "Updating by Reference" section in the joins vignette by adding a clearer one-to-one update example, introducing efficient solutions for updating multiple columns using **mget(cols)**, and clarifying limitations of **:= with RIGHT JOINs**.  
 * Impact: Enhanced clarity and efficiency in the vignette help users better understand and apply update joins, especially for large datasets, improving both usability and performance.
 
-              **7**. [**PR \#6847**](https://github.com/Rdatatable/data.table/pull/6847) –  **Added Examples of Named List Elements in i to** 
-
-                  **Improve Clarity**
+##         7\. **[PR \#6847](https://github.com/Rdatatable/data.table/pull/6847)** –  **Added Examples of Named List Elements in i to Improve Clarity**
 
 * Description: This PR enhances the **data.table** documentation by updating the secondary indices vignette to demonstrate the use of **named list elements** in **`i`** for subsetting with **`on`**. It replaces unnamed character vector syntax with named elements, improving readability and clarity when dealing with multiple keys. The update includes a new subsection titled **"Using Named List Elements in `i`"**, with examples comparing standard and named subsetting approaches.  
 * Impact: These improvements make the syntax more intuitive, especially for complex queries with multiple keys. By explicitly naming elements in **`i`**, users can better understand key-value mappings, reducing potential confusion and improving code maintainability.
@@ -200,7 +183,7 @@ I have no schedule conflicts that would interfere with my ability to fully dedic
 
 Yes, I have been in touch with the mentors recently through GitHub and emails.
 
-**MOTIVATION** 
+# **\*\*MOTIVATION** 
 
 I believe I am a strong candidate for this project as I possess the necessary theoretical knowledge and practical experience to make meaningful contributions. I have been actively exploring and contributing to the **data.table** package since **December**, thoroughly analyzing existing issues, and gaining a deep understanding of its documentation and codebase.
 
@@ -208,7 +191,7 @@ Beyond issue resolution, I have a strong foundation in data manipulation and per
 
 Through my prior contributions and continuous learning, I am confident in my ability to add value to this project. I am eager to further refine the documentation, optimize existing implementations, and contribute to enhancing **data.table**’s usability for the broader data science and analytics community.
 
-**\*\* Project Details**
+# **\*\* Project Details**
 
 In this project, I will contribute to **data.table**, a high-performance R package for data manipulation, by **fixing outstanding issues, optimizing core implementations, and enhancing performance through low-level C improvements**.
 
@@ -313,7 +296,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
      
 
-**\*\* Timeline**
+# **\*\* Timeline**
 
 ## **Community Bonding Period (Before Official Coding Starts) \- May 20 to June 17**
 
@@ -388,17 +371,16 @@ These issues aim to improve the handling of date and time objects within `data.t
 
 These issues cover various bug fixes, optimizations.
 
-* [**\#5661**](https://github.com/Rdatatable/data.table/issues/5661) – [**cedta()** should pass if data.table is in Imports but not the **NAMESPACE**](https://github.com/Rdatatable/data.table/issues/5661)**.**  
-* [**\#6846**](https://github.com/Rdatatable/data.table/issues/6846)– [Joins in **data.table** vignette. Simplify and extend the **"update by reference section"**](https://github.com/Rdatatable/data.table/issues/6846)  
-* [**\#6799**](https://github.com/Rdatatable/data.table/issues/6799) – [Weird behaviour when j**oining**](https://github.com/Rdatatable/data.table/issues/6799)  
-* [**\#6705**](https://github.com/Rdatatable/data.table/issues/6705) – [FR: faster range](https://github.com/Rdatatable/data.table/issues/6705)  
-* [**\#6663**](https://github.com/Rdatatable/data.table/issues/6663) – [Option to **print** the number of columns](https://github.com/Rdatatable/data.table/issues/6663)  
-* [**\#5617**](https://github.com/Rdatatable/data.table/issues/5617)– Factor loses factor class when **nrow(DT) \== 1** and updated  
-* [**\#5588**](https://github.com/Rdatatable/data.table/issues/5588) – **setorder()** doesn't take expressions in the ellipsis  
-* [**\#5554**](https://github.com/Rdatatable/data.table/issues/5554)– **fread's skip.white=TRUE** behavior can have similar functions to **read.csv()**  
-* [**\#5431**](https://github.com/Rdatatable/data.table/issues/5431)\-**foverlaps** error when lubridate loaded if both data.tables are empty with Date start/end columns.
 
-\*\*
+* [**#5661**](https://github.com/Rdatatable/data.table/issues/5661) – **cedta()** should pass if data.table is in Imports but not the **NAMESPACE**.  
+* [**#6846**](https://github.com/Rdatatable/data.table/issues/6846) – Joins in **data.table** vignette. Simplify and extend the **"update by reference section"**.  
+* [**#6799**](https://github.com/Rdatatable/data.table/issues/6799) – Weird behaviour when **joining**.  
+* [**#6705**](https://github.com/Rdatatable/data.table/issues/6705) – FR: faster range.  
+* [**#6663**](https://github.com/Rdatatable/data.table/issues/6663) – Option to **print** the number of columns.  
+* [**#5617**](https://github.com/Rdatatable/data.table/issues/5617) – Factor loses factor class when **nrow(DT) == 1** and updated.  
+* [**#5588**](https://github.com/Rdatatable/data.table/issues/5588) – **setorder()** doesn't take expressions in the ellipsis.  
+* [**#5554**](https://github.com/Rdatatable/data.table/issues/5554) – **fread's skip.white=TRUE** behavior can have similar functions to **read.csv()**.  
+* [**#5431**](https://github.com/Rdatatable/data.table/issues/5431) – **foverlaps** error when lubridate loaded if both data.tables are empty with Date start/end columns.  
 
 These issues are proposed by me as areas to focus on. If mentors suggest other issues or identify high-priority tasks, I will prioritize those accordingly. Additionally, I am open to working on new vignettes or documentation proposals or any other enhancements to improve the codebase further suggested by mentors.
 
@@ -516,9 +498,9 @@ In addition to this qualification task, I have worked on:
 
 By leveraging these experiences, I am confident in my ability to **deliver high-quality, optimized, and well-documented solutions throughout the GSoC project**.
 
-**\*\* Impact on data.table**
+# **\*\* Impact on data.table**
 
-## The proposed contributions will significantly enhance the functionality, usability, and overall experience of data.table for its global community of users. By addressing critical feature requests, improving documentation, refining date/time handling, and resolving bugs, this project will strengthen data.table’s position as one of the most efficient and powerful tools for data manipulation in R. The impact can be summarized as follows:
+ The proposed contributions will significantly enhance the functionality, usability, and overall experience of data.table for its global community of users. By addressing critical feature requests, improving documentation, refining date/time handling, and resolving bugs, this project will strengthen data.table’s position as one of the most efficient and powerful tools for data manipulation in R. The impact can be summarized as follows:
 
 * **Enhanced User Experience:** Improvements such as clearer error handling in **fread**, reverse ranking support in **frank**, and intuitive printing behavior will make data.table more accessible and user-friendly, reducing confusion and streamlining workflows.  
 * **Expanded Functionality:** New features like the **%fin%** operator and attribute preservation in **rbindlist()** will provide users with additional tools to perform complex operations more efficiently while maintaining consistency.  
