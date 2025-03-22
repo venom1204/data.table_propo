@@ -141,7 +141,7 @@ These projects enhanced my skills in deep learning, cryptography, and
 
 **REVIEWED**
 
-1.    **[PR \#6664](https://github.com/Rdatatable/data.table/pull/6664) \-** **Fix handling of complex data types in data.table joins**
+##        1\.    **[PR \#6664](https://github.com/Rdatatable/data.table/pull/6664) \-** **Fix handling of complex data types in data.table joins**
 
 My experience with efficient data structures, query execution, and large- scale data processing makes me well-suited for this project. I am eager to contribute by improving data.table’s functionality, optimizing its performance, and enhancing its documentation to make it more accessible to the R community.
 
@@ -240,15 +240,15 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
    * Implement optimizations for specific algorithms that handle large datasets or high-computation tasks.
 
-  - **Documentation Writing (Ongoing Task Throughout GSoC)**
+- **Documentation Writing (Ongoing Task Throughout GSoC)**
 
-      * Improve the existing documentation by making it more user-friendly and comprehensive.
+   * Improve the existing documentation by making it more user-friendly and comprehensive.
 
-      * Add detailed explanations for complex functions and algorithms, making them easier for new contributors to understand.
+   * Add detailed explanations for complex functions and algorithms, making them easier for new contributors to understand.
 
-      * Ensure the documentation is consistent with the latest updates in the codebase.
+   * Ensure the documentation is consistent with the latest updates in the codebase.
 
-      * Write practical examples and tutorials to demonstrate the usage of key functions.
+   * Write practical examples and tutorials to demonstrate the usage of key functions.
 
 3. ## **Code Verification & Testing Strategy Unit Testing & Debugging:**
 
@@ -258,7 +258,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
    * Document edge cases and unexpected behaviors to help future contributors.
 
-## **Performance Benchmarking:**
+**Performance Benchmarking:**
 
 * Before implementing optimizations, collect baseline performance metrics.
 
@@ -274,23 +274,23 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
 5. # **Perceived Challenges & Mitigation Strategies**
 
-1. **Understanding Legacy Code:**
+  - **Understanding Legacy Code:**
 
    * I will spend ample time reviewing code, using debugging tools, and consulting with mentors/community members when needed.
 
-2. ## **Ensuring Backward Compatibility:**
+  - **Ensuring Backward Compatibility:**
 
    * Any modifications to existing functions will be carefully tested to prevent breaking changes.
 
    * I will write unit tests to cover both new and existing functionality.
 
-3. ## **Managing Time Effectively:**
+  - **Managing Time Effectively:**
 
    * I will follow a well-defined schedule, prioritizing tasks based on complexity and impact.
 
    * Break larger tasks into smaller milestones to track progress efficiently.
 
-4. ## **Handling Complex Bugs:**
+  - **Handling Complex Bugs:**
 
    * Engage with mentors and experienced community members to gain insights and solutions.
 
