@@ -80,7 +80,7 @@ Beyond software development, I am an avid **football player** and enjoy engaging
 
 **\*\* Some Personal projects:**
 
-1. #### **I[mage-Classification\-](https://github.com/venom1204/image-classification)**  
+1. #### **[Image-Classification\-](https://github.com/venom1204/image-classification)**  
 - Developed a CNN-based image classifier using TensorFlow to categorize images into two classes.
 - Dataset: Custom-labeled dataset with preprocessing (resizing, normalization, augmentation).
 - Model: Multi-layer CNN with ReLU, max pooling, dropout, and Adam optimizer.
@@ -118,6 +118,7 @@ These projects enhanced my skills in deep learning, cryptography, and
 Error in merge.data.table(test, manual, by = c("iso3c", "year"), all = TRUE) : 
   Elements listed in `by` must be valid column names in x and y
 ```
+### after (Modified Error Message)
 ```{r after_modification}
 Error in merge.data.table(test, manual, by = c("iso3c", "year"), all = TRUE) : 
   The following columns listed in `by` are missing:
@@ -128,7 +129,12 @@ Error in merge.data.table(test, manual, by = c("iso3c", "year"), all = TRUE) :
 
 * Description: Enhanced documentation for non-equi joins, explaining column retention behavior, usage of **nomatch \= NULL**, and providing clear examples for explicit column selection and filtering unmatched rows.  
 * Impact: Better error handling and coverage of edge cases make the setcolorder() function more robust and user-friendly, reducing the likelihood of errors when reordering columns.
-
+* added the below example-
+```{r non_equi_join_example}
+x <- data.table(x_int = 2:4, lower = letters[1:3])
+i <- data.table(i_int = c(2L, 4L, 5L), UPPER = LETTERS[1:3])
+x[i, on = .(x_int >= i_int)]
+```
 ##       4\. **[PR \#6848](https://github.com/Rdatatable/data.table/pull/6848)** – **Combine DTPRINT statements for fread verbose messages**
 
 * Description:This pull request streamlined verbose messaging in **fread** by combining fragmented **DTPRINT** statements into single, cohesive calls while preserving conditional formatting and original message content.  
@@ -268,15 +274,15 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
    * Document edge cases and unexpected behaviors to help future contributors.
 
-**Performance Benchmarking:**
+- **Performance Benchmarking:**
 
-* Before implementing optimizations, collect baseline performance metrics.
+  * Before implementing optimizations, collect baseline performance metrics.
 
   * Compare results with previous versions to verify performance gains.
 
 4. ## **Weekly Progress Tracking & Reporting**
 
-* At the end of each week, I will document progress, challenges faced, and key learnings.
+  * At the end of each week, I will document progress, challenges faced, and key learnings.
 
   * Maintain an updated GitHub project board or issue tracker to log completed tasks.
 
@@ -436,11 +442,11 @@ Despite careful planning, unexpected challenges may arise. Here’s how I plan t
 
    * If required, adjust deliverables while ensuring meaningful contributions.
 
-**To ensure that my code is consistently submitted, tested, and reviewed effectively, I will follow a structured development and version control approach using GitHub.**
+- **To ensure that my code is consistently submitted, tested, and reviewed effectively, I will follow a structured development and version control approach using GitHub.**
 
 **Code Submission & Testing Strategy**
 
-* **Frequent Commits & Version Control:**
+* ## **Frequent Commits & Version Control:**
 
   * I will commit changes almost **everyday,** ensuring small, manageable updates.  
   * Each commit will be atomic, meaning it will focus on a single change or feature.
@@ -482,7 +488,7 @@ For the changes i have introduced i will include respective tests to check the p
 
 As part of my qualification test, I plan to work on:
 
-* Implementing an **optimized data processing function** to improve performance.
+  * Implementing an **optimized data processing function** to improve performance.
 
   * Enhancing **documentation clarity** for a complex function.
 
