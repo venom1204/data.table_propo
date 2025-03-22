@@ -206,7 +206,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
 # **\*\*Coding Plan and Methods**
 
-1.**Project Understanding & Initial Setup (Community Bonding Period)**
+1. ## **Project Understanding & Initial Setup (Community Bonding Period)**
 
 **Timeline:** Weeks 1–2
 
@@ -216,7 +216,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
   * Identify key areas for documentation improvements and start drafting an initial structure.
 
-2. # **Implementation Plan**
+2. ## **Implementation Plan**
 
 - **Issue Resolution (3–4 Issues Per Week)**
 
@@ -264,7 +264,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
   * Compare results with previous versions to verify performance gains.
 
-4. # **Weekly Progress Tracking & Reporting**
+4. ## **Weekly Progress Tracking & Reporting**
 
 * At the end of each week, I will document progress, challenges faced, and key learnings.
 
@@ -272,7 +272,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
   * Regularly communicate with mentors through email, GitHub discussions, and scheduled meetings to ensure alignment with project goals.
 
-5. # **Perceived Challenges & Mitigation Strategies**
+5. ## **Perceived Challenges & Mitigation Strategies**
 
   - **Understanding Legacy Code:**
 
@@ -318,7 +318,7 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
   * Initial discussions with mentors on project scope and priorities.
 
 
-## **\*\*Planned Contributions**
+# **\*\*Planned Contributions**
 
 The following is a list of issues I intend to work on during the project. However, I remain flexible in my approach and will prioritize any high-priority issues that arise during the development process. My goal is to contribute meaningfully to **`data.table`** by addressing both planned and emerging challenges to improve its overall functionality and performance.
 
@@ -386,25 +386,25 @@ These issues are proposed by me as areas to focus on. If mentors suggest other i
 
 \*\*
 
-## **1\) Feature Requests and Enhancements**
+### **1\) Feature Requests and Enhancements**
 
 Addressing these issues will significantly enhance the usability and robustness of **data.table**. Improvements such as clearer error handling in **fread** (\#5415, \#2100), more intuitive printing behavior (\#5034), preservation of attributes in **rbindlist()** (\#5569), introduction of a convenient **%fin%** operator (\#5232), reverse ranking support in **frank()** (\#5489), and clearer error messaging (\#6008) will collectively improve user experience, reduce confusion, and streamline data analysis workflows.
 
-## **2\) Documentation & Vignettes**
+### **2\) Documentation & Vignettes**
 
 Resolving documentation-related issues will greatly enhance the clarity, accessibility, and overall usability of **data.table**. By clarifying confusing error messages (\#6641), documenting subtle behaviors and edge cases (\#5829, \#5611, \#5560, \#5457, \#2391), creating new vignettes to cover previously undocumented functionalities (\#4208, \#2862, \#2855), users—both new and experienced—will be better equipped to leverage the full power of **data.table**, leading to fewer misunderstandings and more efficient data manipulation.
 
-## **3\) IDate/ITime Improvements**
+### **3\) IDate/ITime Improvements**
 
 Improvements in date/time handling will ensure more consistent and intuitive behavior when working with date/time objects in data.table. Adding **POSIXlt** methods for **IDate** (\#4259), correctly parsing midnight times (\#3629), enabling direct parsing of **ITime** via **fread** (\#4841), and ensuring column names are preserved when using **ITime** (\#4673) will significantly enhance reliability and consistency when dealing with temporal data.
 
-## **4\) Other Issues (Bug Fixes & Optimizations)**
+### **4\) Other Issues (Bug Fixes & Optimizations)**
 
 Resolving these miscellaneous issues will directly improve the stability, performance, and consistency of data.table. Fixes related to joining behaviors (\#6799, \#5431), improved efficiency in common operations like range calculations (\#6705), clearer output options for users (\#6663), consistent factor handling (\#5617), flexible sorting capabilities (**setorder()**, \#5588), enhanced compatibility with base R functions (**fread**, \#5554), and improved package integration (**cedta()**, \#5661) will collectively ensure a smoother user experience, fewer unexpected behaviors, and improved interoperability with other widely-used R packages.
 
 Overall, addressing these planned contributions will lead to significant improvements in functionality, usability, documentation clarity, consistency in temporal data handling, and overall robustness—benefiting the entire community of data.table users.
 
-## **\*\*Contingency Plan**
+# **\*\*Contingency Plan**
 
 Despite careful planning, unexpected challenges may arise. Here’s how I plan to handle setbacks:
 
@@ -435,14 +435,6 @@ Despite careful planning, unexpected challenges may arise. Here’s how I plan t
   * I will commit changes almost **everyday,** ensuring small, manageable updates.  
   * Each commit will be atomic, meaning it will focus on a single change or feature.
 
-* ## **Testing:**
-
-  * Implement unit tests for all core functions using frameworks like
-
-  **testthat** (for R).
-
-  * Perform **manual testing** weekly to ensure real-world functionality.
-
 * ## **Code Reviews & Feedback Loop:**
 
   * Engage actively with mentors and contributors to get feedback before merging large changes.
@@ -453,9 +445,9 @@ Despite careful planning, unexpected challenges may arise. Here’s how I plan t
 
 ## **Commit Behavior & Identifying Problems**
 
-I will track commit frequency and issue resolution pace to detect any potential problems early.
+I will track commit frequency and issue resolution pace to dsetect any potential problems early.
 
-* ## **Warning signs that indicate a problem:**
+## **Warning signs that indicate a problem:**
 
   * **Sudden drop in commits** → Could indicate being stuck or a technical challenge. Solution: Seek help from mentors and the community.  
   * **Frequent bug fixes in recent commits** → May indicate rushed or untested code. Solution: Improve testing before pushing commits.
@@ -466,7 +458,7 @@ By following these strategies, I will maintain **high-quality code, ensure timel
 
 ## **\*\*Test**
 
-**Qualification Test Submission**
+## **Qualification Test Submission**
 
 For the changes i have introduced i will include respective tests to check the proper functionality.My submission will showcase:
 
@@ -507,7 +499,7 @@ By leveraging these experiences, I am confident in my ability to **deliver high-
 * **Stability and Performance:** Resolving bugs and optimizing operations like joins, sorting, and range calculations will improve the stability, reliability, and speed of data.table across diverse use cases.  
 * **Community Growth:** By making the package more accessible through improved documentation and functionality, these contributions will attract new users and contributors, fostering a stronger community around data.table.
 
-### **Acknowledgements & Appreciation**
+## **Acknowledgements & Appreciation**
 
 I started my journey with `data.table` while exploring efficient data manipulation techniques and quickly realized the power and performance benefits it offers. Initially, I had little experience contributing to open-source projects, but through working on `data.table`, I have gained valuable insights into open-source development, version control, documentation improvement, and performance optimization. This journey has helped me refine my technical writing skills and deepen my understanding of efficient data handling.
 
