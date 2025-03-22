@@ -276,23 +276,23 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
   - **Understanding Legacy Code:**
 
-   * I will spend ample time reviewing code, using debugging tools, and consulting with mentors/community members when needed.
+      * I will spend ample time reviewing code, using debugging tools, and consulting with mentors/community members when needed.
 
   - **Ensuring Backward Compatibility:**
 
-   * Any modifications to existing functions will be carefully tested to prevent breaking changes.
+      * Any modifications to existing functions will be carefully tested to prevent breaking changes.
 
-   * I will write unit tests to cover both new and existing functionality.
+      * I will write unit tests to cover both new and existing functionality.
 
   - **Managing Time Effectively:**
 
-   * I will follow a well-defined schedule, prioritizing tasks based on complexity and impact.
+      * I will follow a well-defined schedule, prioritizing tasks based on complexity and impact.
 
-   * Break larger tasks into smaller milestones to track progress efficiently.
+      * Break larger tasks into smaller milestones to track progress efficiently.
 
   - **Handling Complex Bugs:**
 
-   * Engage with mentors and experienced community members to gain insights and solutions.
+      * Engage with mentors and experienced community members to gain insights and solutions.
 
      
 
@@ -386,7 +386,7 @@ These issues are proposed by me as areas to focus on. If mentors suggest other i
 
 \*\*
 
-**1\) Feature Requests and Enhancements**
+## **1\) Feature Requests and Enhancements**
 
 Addressing these issues will significantly enhance the usability and robustness of **data.table**. Improvements such as clearer error handling in **fread** (\#5415, \#2100), more intuitive printing behavior (\#5034), preservation of attributes in **rbindlist()** (\#5569), introduction of a convenient **%fin%** operator (\#5232), reverse ranking support in **frank()** (\#5489), and clearer error messaging (\#6008) will collectively improve user experience, reduce confusion, and streamline data analysis workflows.
 
@@ -447,9 +447,7 @@ Despite careful planning, unexpected challenges may arise. Here’s how I plan t
 
   * Engage actively with mentors and contributors to get feedback before merging large changes.
 
-  * Open Pull Requests (PRs) for each major feature and ensure at least
-
-  **one review** before merging.
+  * Open Pull Requests (PRs) for each major feature and seek review everytime.
 
   * Address mentor feedback within **24-48 hours** to maintain smooth progress.
 
