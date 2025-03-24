@@ -292,12 +292,6 @@ This project emphasizes **code efficiency, scalability, and core enhancements**,
 
    * Document edge cases and unexpected behaviors to help future contributors.
 
-- **Performance Benchmarking:**
-
-  * Before implementing optimizations, collect baseline performance metrics.
-
-  * Compare results with previous versions to verify performance gains.
-
 4. ## **Weekly Progress Tracking & Reporting**
 
   * At the end of each week, I will document progress, challenges faced, and key learnings.
